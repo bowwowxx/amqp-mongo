@@ -10,5 +10,6 @@ $ docker run -d \
   -e MONGODB=mongodb://<MONGODB_HOSTNAME>/<MONGODB_DATABASE> \
   -e MONGOCOLLECTION=<MONGODB_COLLECTION> \
   -e TRANSLATECONTENT=true \
-  bowwow/amqp-mongo <QUEUE_NAME>
+  -e QUEUENAME=xxqueue \
+  bowwow/amqp-mongo
 ```
